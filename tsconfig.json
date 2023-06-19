@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "module": "ESNext",
+    "target": "es2017",
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": [
+      "node_modules/@types",
+    ],
+  },
+  "ts-node": {
+    // Tell ts-node CLI to install the --loader automatically
+    "esm": true
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}
